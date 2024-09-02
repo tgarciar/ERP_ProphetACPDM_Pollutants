@@ -43,7 +43,7 @@ This repository aims to make the results and work done for the Extended Research
   ```bash
     pip install -r requirements.txt
   ```
-6. Download all big csv files:
+6. KEY STEP: Download all big csv files:
   ```bash
     python loading_results.py
   ```
