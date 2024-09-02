@@ -21,33 +21,34 @@ This repository aims to make the results and work done for the Extended Research
 
 ## Installation
 
-1. Clone the repository:
+1. ** Clone the repository: **
    ```bash
    git clone https://github.com/tgarciar/ERP_ProphetACPDM_Pollutants
    cd ERP_ProphetACPDM_Pollutants
 
-2. Install PYTHON==3.10.6
+2. ** Install PYTHON==3.10.6 **
    ```bash
     pyenv install 3.10.6
 
-3. Set python version local
+3. ** Set python version   **
    ```bash
     pyenv local 3.10.6
 
-4. Create a Virtual Env. / Activate
+4. ** Create a Virtual Env. / Activate **
    ```bash
     python -m venv venv
     source venv/bin/activate
 
-5. Install requirements
+5. ** Install requirements**
    ```bash
     pip install -r requirements.txt
 
-6. Download all big csv files:
+6. ** Download all big csv files:**
   ```bash
     python loading_results.py
 
-------------------------------------------------
+
+
 If 6. does not work, you can find the files here:
 https://drive.google.com/drive/folders/1O1B5Qol5yRMfGUk5N37GZYcM6GvuZTjy?usp=sharing
 
@@ -59,24 +60,19 @@ forecast_experiment3 --> "experiment3/saved_results/datasets/forecasts_experimen
 ERP_WETNOR_combined_ts --> "weather_normalisation/saved_results/WETNOR_timeseries/ERP_WETNOR_combined_ts.csv"
 
 ## How to use the Repository
-The Technical Appendix accompanies this repository. It explains more about the project and the methods used, which is sure to enhance understanding.
-
 This repository works in two depths of complexity. The first level corresponds to the Python Scripts found in the main Directory. You might recognise them because they have a number that conforms to the part of the process. These run other scripts inside the folders.
 
 For example, running 0_dataretrieval_script.py initiates two scripts located inside the data_retrieval folder: 01_download_AURNgovdata.py and 02_merging_stations_AURNgovdata.py. This also provides the opportunity to explore 01_download_AURNgovdata.py (second-level deep) and understand its functionality. At this level, you have the flexibility to adjust hyperparameters and examine the code in detail.
 
 The recommendation is to install everything and run in order:
 
-  ```bash
-      python 0_dataretrieval_script.py
+  - python 0_dataretrieval_script.py
 
-  ```bash
-      python 1_EDA_results.py
+  - python 1_EDA_results.py
 
     ...
 
-  ```bash
-    python5_experiment3.py
+  - python 5_experiment3.py
 
 
 This first approach will generate results inside the folders that the users can start to see and understand. The Technical Appendix and the code (annotations) contain more information on the process.
@@ -84,4 +80,4 @@ This first approach will generate results inside the folders that the users can 
 ## Licenses
 
 All Licences can be found in the folder --> Licenses/
-5
+
