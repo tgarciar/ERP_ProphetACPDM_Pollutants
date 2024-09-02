@@ -40,16 +40,17 @@ This repositor
    ```bash
     pyenv local 3.10.6
 
-
 4. Create a Virtual Env. / Activate
    ```bash
-  python -m venv venv
-  source venv/bin/activate
+    python -m venv venv
+    source venv/bin/activate
 
 5. Install requirements
    ```bash
-  pip install -r requirements.txt
+    pip install -r requirements.txt
 
-6. Download all the big csv files:
+6. Download all big csv files:
   ```bash
-  python loading_results.py
+    python loading_results.py
+
+If 6. doesn't work, you can find the files here:
