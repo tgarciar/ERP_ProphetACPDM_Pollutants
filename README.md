@@ -21,32 +21,32 @@ This repository aims to make the results and work done for the Extended Research
 
 ## Installation
 
-1. ** Clone the repository: **
-   ```bash
+1. Clone the repository:
+  ```bash
    git clone https://github.com/tgarciar/ERP_ProphetACPDM_Pollutants
    cd ERP_ProphetACPDM_Pollutants
   ```
-2. ** Install PYTHON==3.10.6 **
+2.  Install PYTHON==3.10.6
    ```bash
     pyenv install 3.10.6
-  ```
-3. ** Set python version   *
+   ```
+3. Set python version
    ```bash
     pyenv local 3.10.6
   ```
 4.  Create a Virtual Env. / Activate
-   ```bash
+  ```bash
     python -m venv venv
     source venv/bin/activate
   ```
 5. ** Install requirements
-   ```bash
+  ```bash
     pip install -r requirements.txt
   ```
 6. Download all big csv files:
   ```bash
     python loading_results.py
-` ``
+  ```
 
 If 6. does not work, you can find the files here:
 https://drive.google.com/drive/folders/1O1B5Qol5yRMfGUk5N37GZYcM6GvuZTjy?usp=sharing
