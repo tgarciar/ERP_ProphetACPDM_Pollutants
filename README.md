@@ -49,7 +49,7 @@ This repository aims to make the results and work done for the Extended Research
 
 https://drive.google.com/drive/folders/1O1B5Qol5yRMfGUk5N37GZYcM6GvuZTjy?usp=sharing
 
-The paths where each file needs to be saved are. They need to be in thos exact locations to run properly.
+The paths where each file needs to be saved are. They need to be in this exact locations to run properly.
 
 forecast_experiment1 --> "experiment1/saved_results/datasets/forecasts_experiment1.csv" <br>
 
