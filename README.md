@@ -12,18 +12,12 @@ An extended research project (ERP) report submitted to the University of Manches
 ## Table of Contents
 
 - [About this Repository](#about)
-- [How to use the Repo.](#about)
 - [Installation](#installation)
+- [How to use the Repository](#howto)
 - [License](#license)
 
 ## About this Repository:
-This repositor
-
-
-
-
-
-
+This repository aims to make the results and work done for the Extended Research Project reproducible. For this, the code was cleaned, annotated, organized, and automated to follow the main parts of each process. The Technical Appendix accompanies this repository. It explains more about the project and the methods used, which is sure to enhance understanding.
 
 ## Installation
 
@@ -64,6 +58,30 @@ forecast_experiment2 --> "experiment2/saved_results/datasets/forecasts_experimen
 forecast_experiment3 --> "experiment3/saved_results/datasets/forecasts_experiment3.csv"
 ERP_WETNOR_combined_ts --> "weather_normalisation/saved_results/WETNOR_timeseries/ERP_WETNOR_combined_ts.csv"
 
+## How to use the Repository
+The Technical Appendix accompanies this repository. It explains more about the project and the methods used, which is sure to enhance understanding.
+
+This repository works in two depths of complexity. The first level corresponds to the Python Scripts found in the main Directory. You might recognise them because they have a number that conforms to the part of the process. These run other scripts inside the folders.
+
+For example, running 0_dataretrieval_script.py initiates two scripts located inside the data_retrieval folder: 01_download_AURNgovdata.py and 02_merging_stations_AURNgovdata.py. This also provides the opportunity to explore 01_download_AURNgovdata.py (second-level deep) and understand its functionality. At this level, you have the flexibility to adjust hyperparameters and examine the code in detail.
+
+The recommendation is to install everything and run in order:
+
+  ```bash
+      python 0_dataretrieval_script.py
+
+  ```bash
+      python 1_EDA_results.py
+
+    ...
+
+  ```bash
+    python5_experiment3.py
+
+
+This first approach will generate results inside the folders that the users can start to see and understand. The Technical Appendix and the code (annotations) contain more information on the process.
+
 ## Licenses
 
 All Licences can be found in the folder --> Licenses/
+5
