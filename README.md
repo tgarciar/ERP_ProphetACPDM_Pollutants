@@ -25,29 +25,28 @@ This repository aims to make the results and work done for the Extended Research
    ```bash
    git clone https://github.com/tgarciar/ERP_ProphetACPDM_Pollutants
    cd ERP_ProphetACPDM_Pollutants
-
+  ```
 2. ** Install PYTHON==3.10.6 **
    ```bash
     pyenv install 3.10.6
-
-3. ** Set python version   **
+  ```
+3. ** Set python version   *
    ```bash
     pyenv local 3.10.6
-
-4. ** Create a Virtual Env. / Activate **
+  ```
+4.  Create a Virtual Env. / Activate
    ```bash
     python -m venv venv
     source venv/bin/activate
-
-5. ** Install requirements**
+  ```
+5. ** Install requirements
    ```bash
     pip install -r requirements.txt
-
-6. ** Download all big csv files:**
+  ```
+6. Download all big csv files:
   ```bash
     python loading_results.py
-
-
+` ``
 
 If 6. does not work, you can find the files here:
 https://drive.google.com/drive/folders/1O1B5Qol5yRMfGUk5N37GZYcM6GvuZTjy?usp=sharing
@@ -66,18 +65,20 @@ For example, running 0_dataretrieval_script.py initiates two scripts located ins
 
 The recommendation is to install everything and run in order:
 
-  - python 0_dataretrieval_script.py
-
-  - python 1_EDA_results.py
-
+```bash
+  python 0_dataretrieval_script.py
+```
+``` bash
+python 1_EDA_results.py
+```
     ...
 
-  - python 5_experiment3.py
+``` bash
+python 5_experiment3.py
+```
 
-
-This first approach will generate results inside the folders that the users can start to see and understand. The Technical Appendix and the code (annotations) contain more information on the process.
+This first approach will generate results inside the folders that the users can start to inspect and understand. The Technical Appendix and the code (annotations) contain more information on the process.
 
 ## Licenses
 
 All Licences can be found in the folder --> Licenses/
-
