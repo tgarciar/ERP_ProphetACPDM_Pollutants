@@ -3,10 +3,11 @@ import requests
 
 
 files_to_download = {
-    "https://drive.google.com/uc?export=download&id=YOUR_FILE_ID_1": "path/to/directory1/filename1.ext",
-    "https://drive.google.com/uc?export=download&id=YOUR_FILE_ID_2": "path/to/directory2/filename2.ext",
+    "https://drive.google.com/file/d/1jPFcPwXmypFKZcvZL001lUJp1Aq3OwzY/view?usp=sharing": "experiment1/saved_results/datasets/forecasts_experiment1.csv",
+    "https://drive.google.com/file/d/1ysRn-yefeKuFlF2zytWQSNlXxfAxkgVo/view?usp=sharing": "experiment2/saved_results/datasets/forecasts_experiment2.csv",
+    "https://drive.google.com/file/d/16mIGSUHTMzEAlnOPvgzPEBYqyTv47SmD/view?usp=sharing": "experiment3/saved_results/datasets/forecasts_experiment3.csv",
+    "https://drive.google.com/file/d/1R_ctPkUFmN1AjUkrJZ7yAZGyvYwKE5fp/view?usp=sharing": "weather_normalisation/saved_results/WETNOR_timeseries/ERP_WETNOR_combined_ts.csv",
 }
-
 def download_file(url, dest_path):
     try:
         # Create directories if they don't exist
