@@ -27,11 +27,11 @@ This repository aims to make the results and work done for the Extended Research
    cd ERP_ProphetACPDM_Pollutants
   ```
 2.  Install PYTHON==3.10.6
-   ```bash
+  ```bash
     pyenv install 3.10.6
-   ```
+  ```
 3. Set python version
-   ```bash
+  ```bash
     pyenv local 3.10.6
   ```
 4.  Create a Virtual Env. / Activate
@@ -39,7 +39,7 @@ This repository aims to make the results and work done for the Extended Research
     python -m venv venv
     source venv/bin/activate
   ```
-5. ** Install requirements
+5. Install requirements
   ```bash
     pip install -r requirements.txt
   ```
