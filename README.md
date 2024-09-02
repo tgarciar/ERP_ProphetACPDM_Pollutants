@@ -53,10 +53,13 @@ https://drive.google.com/drive/folders/1O1B5Qol5yRMfGUk5N37GZYcM6GvuZTjy?usp=sha
 
 The paths where each file needs to be saved are:
 
-forecast_experiment1 --> "experiment1/saved_results/datasets/forecasts_experiment1.csv"
-forecast_experiment2 --> "experiment2/saved_results/datasets/forecasts_experiment2.csv"
-forecast_experiment3 --> "experiment3/saved_results/datasets/forecasts_experiment3.csv"
-ERP_WETNOR_combined_ts --> "weather_normalisation/saved_results/WETNOR_timeseries/ERP_WETNOR_combined_ts.csv"
+forecast_experiment1 --> "experiment1/saved_results/datasets/forecasts_experiment1.csv" <br>
+
+forecast_experiment2 --> "experiment2/saved_results/datasets/forecasts_experiment2.csv" <br>
+
+forecast_experiment3 --> "experiment3/saved_results/datasets/forecasts_experiment3.csv" <br>
+
+ERP_WETNOR_combined_ts --> "weather_normalisation/saved_results/WETNOR_timeseries/ERP_WETNOR_combined_ts.csv" <br>
 
 ## How to use the Repository
 This repository works in two depths of complexity. The first level corresponds to the Python Scripts found in the main Directory. You might recognise them because they have a number that conforms to the part of the process. These run other scripts inside the folders.
