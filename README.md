@@ -44,14 +44,12 @@ This repository aims to make the results and work done for the Extended Research
     pip install -r requirements.txt
   ```
 6. KEY STEP: Download all big csv files:
-  ```bash
-    python loading_results.py
-  ```
 
-If 6. does not work, you can find the files here:
+ Download FROM HERE:
+
 https://drive.google.com/drive/folders/1O1B5Qol5yRMfGUk5N37GZYcM6GvuZTjy?usp=sharing
 
-The paths where each file needs to be saved are:
+The paths where each file needs to be saved are. They need to be in thos exact locations to run properly.
 
 forecast_experiment1 --> "experiment1/saved_results/datasets/forecasts_experiment1.csv" <br>
 
