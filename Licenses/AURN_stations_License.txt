@@ -1,0 +1,15 @@
+Information on uk-air.defra.gov.uk  is published by The Department for Environment, Food and Rural Affairs (Defra) and the
+Devolved Administrations under the Open Government Licence (OGL) v3.0 and subject to the terms described in the "licence" or
+"constraints" of the OGL, except where otherwise noted below.  Under the OGL you are free to:
+
+- copy, publish, distribute and transmit the information
+- adapt the information
+- exploit the information commercially and non-commercially for example, by combining it with other information, or by including
+ it in your own product or application
+
+You must, where you do any of the above, acknowledge Defra and uk-air.defra.gov.uk as the source of the information by including
+the following attribution statement in reports, web pages or derived data products and, where possible, provide a link to the OGL licence.
+
+© Crown copyright 2021 Defra via uk-air.defra.gov.uk, licensed under the Open Government Licence.
+
+More about OGL License: https://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/
